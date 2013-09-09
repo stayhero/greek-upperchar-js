@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+        .upper {
+            text-transform: uppercase
+        }
+    </style>
+</head>
+<body>
+
+<p>lowercase</p>
+<ul>
+    <li>άι</li>
+    <li>άυ</li>
+    <li>ά</li>
+    <li>έ</li>
+    <li>ή</li>
+    <li>ί</li>
+    <li>ό</li>
+    <li>ύ</li>
+    <li>ώ</li>
+</ul>
+
+<p>uppercase</p>
+<ul id="test" class="upper">
+    <li>άι</li>
+    <li>άυ</li>
+    <li>ά</li>
+    <li>έ</li>
+    <li>ή</li>
+    <li>ί</li>
+    <li>ό</li>
+    <li>ύ</li>
+    <li>ώ</li>
+</ul>
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="../jquery.greek-upperchar.js"></script>
+<script>
+    $(function () {
+        $('#test').greekUpperChar();
+    });
+</script>
+</body>
+</html>

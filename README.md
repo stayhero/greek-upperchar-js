@@ -23,6 +23,9 @@ In the browser:
 
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="greek-upperchar.js"></script>
-<script type="text/javascript"> $(function() { greekUpperchar(); }); </script>
+<script src="jquery.greek-upperchar.js"></script>
+<script>$(function(){ $('.upper').greekUpperChar(); });</script>
 ```
+
+## Requirements
+jQuery

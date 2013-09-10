@@ -23,7 +23,7 @@ In the browser:
 
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="jquery.greek-upperchar.js"></script>
+<script src="src/jquery.greek-upperchar.js"></script>
 <script>$(function(){ $('.upper').greekUpperChar(); });</script>
 ```
 

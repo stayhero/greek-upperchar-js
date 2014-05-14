@@ -22,7 +22,7 @@
                 ['ύ', 'ὺ', 'ῦ', 'ὐ', 'ὑ', 'ὔ', 'ὒ', 'ὖ', 'ὕ', 'ὓ', 'ὗ'], // Ypsilon
                 ['ώ', 'ὼ', 'ῶ', 'ὠ', 'ὡ', 'ὤ', 'ὢ', 'ὦ', 'ὥ', 'ὣ', 'ὧ'] // Omega
             ],
-            repalce: [
+            replace: [
                 'αϊ' , 'εϊ' , 'οϊ' , 'υϊ',
                 'αϋ' , 'εϋ' , 'οϋ' , 'ηϋ',
                 'α', // Alpha
@@ -52,7 +52,7 @@
                     if ($(this).parent().css('text-transform') == 'uppercase') {
                         for (var x in self._defaults.chars) {
                             for (var i in self._defaults.chars[x]) {
-                                this.nodeValue = this.nodeValue.split(self._defaults.chars[x][i]).join(self._defaults.repalce[x]);
+                                this.nodeValue = this.nodeValue.split(self._defaults.chars[x][i]).join(self._defaults.replace[x]);
                             }
                         }
                     }
